@@ -20,23 +20,23 @@
 						</div>
 
 						<div class="panel-body">
-							<form data-toggle="validator" role="form" netlify>
+							<form data-toggle="validator" role="form" name="contact" netlify>
 								<div class="form-group">
 									<label for="inputName" class="control-label">Name</label>
-									<input type="text" class="form-control" id="inputName" placeholder="Cyndi Lauper" required>
+									<input type="text" class="form-control" id="inputName" name="name" placeholder="Cyndi Lauper" required>
 								</div>
 								<div class="form-group">
 									<label for="inputEmail" class="control-label">Email</label>
-									<input type="email" class="form-control" id="inputEmail" placeholder="Email" data-error="That email address is invalid" required>
+									<input type="email" class="form-control" id="inputEmail" name="email" placeholder="Email" data-error="That email address is invalid" required>
 									<div class="help-block with-errors"></div>
 								</div>
 								<div class="form-group">
 									<label for="inputName" class="control-label">Subject</label>
-									<input type="text" class="form-control" id="inputSubject" required>
+									<input type="text" class="form-control" name="subject" id="inputSubject" required>
 								</div>
 								<div class="form-group">
 									<label for="comment">Message:</label>
-									<textarea class="form-control" rows="5" id="inputMessage" required></textarea>
+									<textarea class="form-control" rows="5" name="message" id="inputMessage" required></textarea>
 								</div>
 								<div class="form-group">
 									<button type="submit" class="btn btn-primary">Submit</button>
